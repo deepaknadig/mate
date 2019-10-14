@@ -6,7 +6,7 @@ urllist = [ 'https://www.circl.lu/doc/misp/feed-osint/',
             'https://feeds.inthreat.com/osint/misp/'
         ]
 
-target = r"/home/ubuntu/intel/json"
+target = r"/home/ubuntu/feeds/json"
 if not os.path.exists(target):
     os.makedirs(target)
 

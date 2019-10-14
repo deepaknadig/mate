@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-INTEL_DIR=/home/$USER/mate/feeds/external
+INTEL_DIR=/home/$USER/feeds/external
 
 if [ ! -d $INTEL_DIR ]; then
     printf "Creating the intel directory...\n"

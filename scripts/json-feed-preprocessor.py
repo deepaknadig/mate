@@ -18,9 +18,9 @@ def progress(count, total, status=''):
 
 # For Python 3.6 and above
 # directory = os.fsencode('/home/ubuntu/intel/json')
-directory = '/home/dna/intel/json'
+directory = '/home/ubuntu/feeds/json'
 
-target = os.fsencode('/home/dna/intel/json2')
+target = os.fsencode('/home/ubuntu/feeds/json2')
 if not os.path.exists(target):
     os.makedirs(target)
 
